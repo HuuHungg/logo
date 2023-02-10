@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+
+html {
+    height: 100%;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/595bdfa4414fb51e2862f53c/1634922882167-B0CW1BPVT8TDLGVIBWMQ/The-Hyperreal-and-Simulated-Coffee-Shops.png);
+    background-size: cover;
+}
+
+
+/* Menu */
+.modal.open {
+    display: flex;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal_menu {
+    background-color: #ffff;
+    width: 900px;
+    height: 500px;
+    position: relative;
+    animation: modalFadeIn ease-in 0.4s;
+}
+
+.modal_menu-title {
+    background-color: #000;
+    color: white;
+    position: relative;
+    padding: 14px;
+    font-size: 2.4rem;
+}
+
+
+.modo_menu-icon  {
+    position: absolute;
+    top: 0;
+    color: #ffff;
+    right: 0 ;
+    font-size: 1.2rem;
+    padding: 10px;
+
+}
+
+.modo_menu-icon:hover {
+    background-color: #ffff;
+    color: #000;
+}
+
+@keyframes modalFadeIn {
+    from {
+       opacity: 0;
+        transform: translateY(0)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(100);
+    }
+}
+
+
+/* Contact */
+.modal-header_contat {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: center;
+    display: none;
+    animation: modalFadeIn ease-in .4s;
+}
+
+
+
+.open2 {
+    display: flex;
+}
+
+
+.modal_contact {
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    height: 400px;
+    position: relative;
+}
+
+
+.modal_contact-header {
+    background-color: #000;
+    color: #ffff;
+    padding: 18px;
+    font-size: 3.6rem;
+}
+
+.modal_contact-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffff;
+    font-size: 1.9rem;
+    padding: 9px;
+}
+.modal_contact-icon:hover {
+    background-color: #CCCCCC;
+    color: #141414;
+    cursor: pointer;
+
+}
+
+.modal_contact-title {
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+.modal__input {
+    padding: 7px 10px;
+}
+
+.modal__input-content {
+    width: 100%;
+    font-size: 1.4rem;
+    height: 4.5rem;
+    padding-left: 8px;
+}
+
+.modo_content-footer {
+    margin: 10px;
+}
+
+
+.modal_contactfooter {
+    padding: 7px;
+    width: 10rem;
+    margin-bottom: 10px;
+}
+
+.modal_contactfooter:hover {
+    background-color: #CCCCCC;
+    color: #141414;
+}
+
+
+.header_img {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.control {
+    position: absolute;
+    top: 0;
+    margin: 60px;
+    
+}
+
+.control_menu {
+    background-color: black;
+    color: #ffff;
+    padding: 4px 21.6px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 3rem;
+}
+
+
+
+
+.control_contact {
+    background-color: black;
+    color: #ffff;
+    padding: 7px 20px;
+    border: none;
+    margin-top: 20px;
+    font-size: 3rem;
+
+}
+
+.control_menu:hover,
+.control_contact:hover {
+    background-color: #ffff;
+    color: #000;
+}
+
+
+.modal_content {
+    padding: 14px;
+    list-style: none;
+
+}
+
+.modal_content-list {
+    font-size: 1.6rem;
+    line-height: 1.5;
+
+}
+
+
+
+/* Logo */
+
+.center-logo {
+    position: absolute;
+    display: flex;
+    left: 172%;
+    top: 185%;
+
+}
+
+.center--logo_content {
+    color: white;
+    font-size: 6rem;
+}
+
+
+/* footer */
+
+.footer_control {
+    position: relative;
+    margin-left: 13px;
+    bottom: -62rem;
+    color: white;
+}
+
+
+.header-footer_control {
+    font-size: 2.4rem;
+    padding: 10px 0;
+}
+
+.header_footer-title {
+    font-size: 1.6rem;
+    padding: 10px 0;
+}
+
+.header__footer-link {
+    margin-top: 14px;
+}
+
+.footer_link {
+    color: white;
+}
